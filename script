@@ -1,0 +1,392 @@
+/* custom css */
+.payments .payment.pix,
+.payments .payment.credit-card {
+}
+.black-80 {
+color: #5c5c5c!important;
+}
+.payments .payment > label {
+position: relative;
+display: flex;
+}
+.holder-cols-checkout .container-shipment .option.selected {
+background: #FFFFFF;
+border: 2px solid var(--title-color);
+border-radius: 12px;
+}
+.holder-cols-checkout .container-shipment .option{
+background: #ebebeb;
+border: none;
+border-radius: 12px;
+}
+.holder-cols-checkout .container-addresses .box-address.selected .inner-box {
+background: #ebebeb;
+border-radius: 12px;
+border: none;
+}
+.payments .payment > label[for="payment-billet"]:after {
+background: #b9b9b9;
+display: block;
+line-height: inherit;
+color: #FFF;
+padding: 4px 5px;
+border-radius: 3px;
+position: absolute;
+font-weight: bold;
+font-size: 10px;
+right: 10px;
+letter-spacing: 0.03em;
+top: 26%;
+content: 'APROVAÇÃO EM 3 DIAS';
+}
+.holder-cols-checkout .payments .payment-header .discount-flag {
+position: absolute;
+display: none;
+}
+.payments .payment > label[for="payment-pix"]:after,
+.payments .payment > label[for="payment-credit-card"]:after
+{
+background: #33bf8b;
+display: block;
+line-height: inherit;
+color: #FFF;
+padding: 4px 5px;
+border-radius: 3px;
+position: absolute;
+font-weight: bold;
+font-size: 10px;
+right: 10px;
+letter-spacing: 0.03em;
+top: 26%;
+content: 'APROVAÇÃO IMEDIATA';
+}
+.payments .payment > label[for="payment-credit-card"]:after {
+top: 13%;
+}
+&lt;/style&gt;
+.holder-cols-checkout .payments .payment-header .discount-flag {
+position: absolute;
+padding: 4px 4px 3px;
+right: 12px;
+background: #f1b616;
+color: #FFC500;
+border-radius: 40px;
+}
+footer .security-label {
+display: none;
+margin-bottom: 25px;
+}
+.holder-cols-checkout .holder-container-resume .item-image img{
+overflow: auto;
+border-radius: 8px;
+}
+.holder-countdown {
+padding: 9px 0 !important;
+}
+.logo {
+position: absolute;
+top: 40px;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+}
+.item-security {
+visibility: hidden;
+}
+.holder-cols-checkout .cart-resume .detail.total {
+color: #666666;
+padding-top: 12px;
+padding-bottom: 6px;
+}
+.holder-cols-checkout .cart-resume {
+border-radius: 15px;
+}
+.holder-cols-checkout .box-checkout.box-resume .cart_total {
+color: var(--discount-tag-bg-color);
+}
+.form-horizontal .holder-input.valid:after {
+position: absolute;
+right: 15px;
+font-family: FontAwesome;
+color: var(--title-color);
+content: "\f00c";
+}
+.holder-cols-checkout .box-checkout.active .box-title .holder-number {
+background: var(--title-color);
+border-color: #f1b616!important;
+color: #fff;
+border-radius: 16px;
+}
+#form-promocode button, #form-promocode input {
+border-radius: 40px!important;
+margin-right: -40px;
+}
+.holder-cols-checkout
+.box-checkout:not(.active):not(.disabled):not(.box-resume):not(.box-payment)
+.holder-number {
+background-color: #FFC500;
+}
+.btn:not([class^=ml]):not([class*=' ml']) {
+margin-left: 0;
+border-radius: 9px!important;
+padding: 8px 12px 8px 12px;
+margin-bottom: 12px;
+}
+.form-horizontal .form-group .error, .form-horizontal .form-group.group-error
+.holder-selectskin:not([readonly]), .form-horizontal .form-group.group-error
+.input:not([readonly]), .form-horizontal .form-group.group-error .textarea:not([readonly]) {
+border-color: #E50F38;
+background: #FEECEF;
+}
+.input-group input{
+border-radius: 0 40px 40px 0!important;
+}
+.holder-selectskin {
+background: #FFF;
+border: none;
+border-radius: var(--default-radius);
+}
+.container-testimonials .box-testimonial{
+display: flex;
+width: 100%;
+margin-bottom: 20px;
+padding: 10px 0 5px;
+border-radius: 15px;
+background: #f4f6f8;
+border-bottom: none;
+}
+.container-testimonials .testimonials{
+padding-bottom: 1px;
+box-shadow: 0 15px 40px -20px rgb(0 0 0 / 30%)!important;
+}
+.fa-star:before{
+color: var(--discount-tag-bg-color);
+}
+.container-testimonials .box-testimonial__photo{
+background: #f4f6f8;
+}
+.holder-cols-checkout .cart-resume .detail {
+color: #5c5c5c;
+}
+.holder-cols-checkout .box-checkout input {
+max-height: 40px;
+BORDER-RADIUS: 8px;
+}
+button, input, select, textarea {
+outline: 0;
+padding: 16px 20px 15px;
+background: #f4f6f8;
+border: none;
+color: #333;
+line-height: 14px;
+margin: 0;
+-webkit-appearance: none;
+transition: all .4s;
+font-family: var(--texts-font-family);
+font-size: 13px;
+box-sizing: border-box;
+}
+.input-group .input-group-addon {
+display: table-cell;
+width: 64px;
+font-size: 13px;
+line-height: 14px;
+color: #333;
+border-collapse: separate;
+white-space: nowrap;
+text-align: center;
+vertical-align: middle;
+border-radius: 40px;
+font-weight: 500;
+}
+/* ULTIMO DIA DE PROMOÇÃO */
+.holder-cols-checkout .holder-container-resume .item-holder-quantity-price::after {
+content: "PREÇO PROMOCIONAL";
+font-size: 11px;
+padding: 3px 5px;
+color:#fff;
+font-weight: 600;
+background: #33bf8b;
+border-radius: 4px;
+display: inline-block;
+align-self: end;
+margin-left: 0px;
+}
+/* Tamanho do Preço */
+.holder-cols-checkout .cart-resume .detail.total .value {
+font-size: 22px;
+text-align: end;
+}
+/* 12x no Cartão */
+.holder-cols-checkout .cart-resume .detail.total .value:after {
+content: 'em até 12x no cartão';
+color: var(--discount-tag-bg-color)!important;
+display: block;
+font-weight: bold;
+font-size: 12px;
+}
+.btn-text.btn-purple /* COR DO BOTÃO DE CUPOM - ALTERAR SE PREFEIR */ {
+color: #ffffff;
+background: var(--discount-tag-bg-color);
+border-radius: 40PX;
+}
+.btn-primary, .btn-primary:hover {
+background-image: linear-gradient(#11998E, #0C8076);
+color: var(--btn-primary-txt-color);
+border-radius: 9px;
+box-shadow: 0 5px 20px -5px #11998E;
+}
+.yellow /* COR CRONOMETRO - ALTERAR SE PREFEIR */ {
+color: #ef442d!important;
+}
+body {
+overflow-x: hidden;
+font-size: 13px;
+background: #f7f7f8;
+text-shadow: 0 0 1px rgb(0 0 0 / 1%);
+-webkit-text-stroke: 1 px transparent;
+font-weight: 400;
+font-family: Rubik,sans-serif;
+}
+.holder-cols-checkout
+.box-checkout:not(.active):not(.disabled):not(.box-resume):not(.box-payment) {
+background: #ffffff;
+box-shadow: 0 15px 40px -20px rgb(0 0 0 / 30%)!important;
+border-radius: 16px;
+}
+.holder-cols-checkout
+.box-checkout:not(.active):not(.disabled):not(.box-resume):not(.box-payment) .title {
+color: var(--title-color)!important;
+}
+.checkout-step.enabled .connect, .checkout-step.enabled .holder-icon {
+background: var(--title-color);
+}
+a {
+text-decoration: none;
+color: #4d4d4d;
+}
+.holder-cols-checkout .box-checkout {
+width: 100%;
+position: relative;
+padding: 25px;
+margin: 0 0 20px;
+background: #FFF;
+border: 2px solid transparent;
+border-radius: 16px;
+box-sizing: border-box;
+transition: all .2s;
+}
+.holder-cols-checkout .box-checkout.active {
+cursor: default;
+border-color: #f1b616;
+border-radius: 16px;
+}
+@media (max-width: 1060px) {
+.holder-cols-checkout .box-checkout.box-resume:not(.opened) {
+padding-bottom: 24px!important;
+background: #ffffff;
+box-shadow: 0 15px 40px -20px rgb(0 0 0 / 30%)!important;
+transition-delay: .3s;
+}
+}
+.c-green-2 {
+color:#FFC500 !important;
+}
+.col-checkout:not(.col-3) .box-checkout.active:not(.upsell) {
+width: auto;
+padding: 25px;
+margin: 1px;
+margin-bottom: 15px;
+border: 0;
+border-radius: 16px;
+box-shadow: 0 15px 40px -20px rgb(0 0 0 / 30%)!important;
+}
+.holder-cols-checkout .box-checkout.disabled {
+cursor: default;
+pointer-events: none;
+-moz-opacity: .5;
+-khtml-opacity: .5;
+-webkit-opacity: .5;
+opacity: .5;
+border-top: solid 4 px #f1b616;
+box-shadow: none;
+border-radius: 40PX;
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+filter: alpha(opacity=50);
+}
+.form-horizontal .label-control {
+color: #5c5c5c;
+}
+.holder-cols-checkout .box-checkout.box-resume {
+width: auto;
+padding: 25px;
+border: 0;
+border-radius: 16px;
+box-shadow: 0 15px 40px -20px rgb(0 0 0 / 30%)!important;
+}
+.holder-cols-checkout
+.box-checkout:not(.active):not(.disabled):not(.box-resume):not(.box-payment)
+.holder-number {
+background-color: var(--title-color);
+}
+.input-group.input-group-prepend .input-group-addon {
+border-radius: 8px 0 0 8px;
+border: none;
+border-right: 1px solid #dfdfdf;
+}
+.green {
+color: var(--discount-tag-bg-color)!important;
+}
+.icon-mercadopago {
+background-image:
+url(https://s3.sa-east-1.amazonaws.com/king-assets.yampi.me/dooki/61858ce210e18/61858
+ce210e1f.png);
+}
+.holder-cols-checkout .container-shipment .option .inner-label .price {
+color: var(--discount-tag-bg-color);
+margin-top: 14px;
+}
+/* Rodapé - ALTERAR INFORMAÇÕES */
+span.f11.black-50::after {
+content: ' Atendimento via e-mail: contato@loja.com \A Seg a Sex - 13:00 às 18:00 \A©️
+Todos os direitos reservados.';
+display: block;
+margin-top: 15px;
+white-space: pre-wrap;
+line-height: 1.8;
+}
+.holder-cols-checkout .payments .payment.selected {
+background: #ffffff;
+border-color: #ebebeb;
+}
+.holder-cols-checkout .payments .payment {
+position: relative;
+margin-bottom: 10px;
+border: none;
+border-radius: 10px;
+background: #f4f6f8;
+}
+.medium {
+font-weight: 500;
+}
+.c-text-success-2 {
+color: #FFC500!important;
+}
+.c-text {
+color: #5c5c5c!important;
+}
+.black-50 {
+color: grey!important;;
+}
+@media (max-width: 700px)
+footer .security-label {
+display: none;
+margin-bottom: 25px;
+}
+header {
+background: var(--header-bg-color);
+box-shadow: 0 1px 4px 0 rgb(0 0 0 / 32%);
+}
+.lgpd-message {
+display: none;
+}
